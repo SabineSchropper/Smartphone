@@ -1,0 +1,13 @@
+C:\Users\DCV\C#\Smartphone\Smartphone\bin\Debug\netcoreapp3.1\Smartphone.exe
+C:\Users\DCV\C#\Smartphone\Smartphone\bin\Debug\netcoreapp3.1\Smartphone.deps.json
+C:\Users\DCV\C#\Smartphone\Smartphone\bin\Debug\netcoreapp3.1\Smartphone.runtimeconfig.json
+C:\Users\DCV\C#\Smartphone\Smartphone\bin\Debug\netcoreapp3.1\Smartphone.runtimeconfig.dev.json
+C:\Users\DCV\C#\Smartphone\Smartphone\bin\Debug\netcoreapp3.1\Smartphone.dll
+C:\Users\DCV\C#\Smartphone\Smartphone\bin\Debug\netcoreapp3.1\Smartphone.pdb
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.csprojAssemblyReference.cache
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.AssemblyInfoInputs.cache
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.AssemblyInfo.cs
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.csproj.CoreCompileInputs.cache
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.dll
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.pdb
+C:\Users\DCV\C#\Smartphone\Smartphone\obj\Debug\netcoreapp3.1\Smartphone.genruntimeconfig.cache
