@@ -10,33 +10,37 @@ namespace Smartphone
     {
        public List<App> Apps = new List<App>();
 
-       public Smartphone()
+        public void Add(App app)
         {
-            App toDoApp = new App(2,1.2m,"To Do Control");
-            App whatsApp = new App(5, 3.2m, "Whats App");
-            App word = new App(1, 4.0m, "Word");
-            Game superMario = new Game("Super Mario", 2.0m, true, 8, 2.0m);
-            Game bestGameEver = new Game("Best Game Ever", 3.5m, false, 10, 2.5m);
-            Game snake = new Game("Snake", 0.0m, true, 5, 0.5m);
-            Apps.Add(toDoApp);
-            Apps.Add(word);
-            Apps.Add(whatsApp);
-            Apps.Add(superMario);
-            Apps.Add(bestGameEver);
-            Apps.Add(snake);
-            
+            Apps.Add(app);
         }
 
         public List<App> searchApps()
         {
-            var list = Apps.Where(x => x.GetType().Equals(typeof(App))).ToList();
-            return list;
+            //x is App
+            /*var list = Apps.Where(x => x.GetType().Equals(typeof(App))).ToList();
+            return list;*/
+
+            return FilterList(typeof(App));
         }
         public List<App> searchGames()
         {
-            var list = Apps.Where(x => x.GetType().Equals(typeof(Game))).ToList();
-            return list;
+            return FilterList(typeof(Game));
         }
+        private List<App> FilterList(Type type)
+        {
+            return Apps.Where(x => x.GetType().Equals(type)).ToList();
+        }
+        /// <summary>
+        /// if i use this generic Method, then I don't need to use two Methods searchApps() and searchGames()
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public List<App> search<T>() where T : App
+        {
+            return Apps.Where(x => x.GetType().Equals(typeof(T))).ToList();
+        }
+
         public List<App> ControlInput(string input)
         {
             List<App> list = null;
